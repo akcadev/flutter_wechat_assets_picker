@@ -121,13 +121,13 @@ class EnglishTextDelegate implements AssetsPickerTextDelegate {
   static final EnglishTextDelegate _instance = EnglishTextDelegate._internal();
 
   @override
-  String confirm = 'Confirm';
+  String confirm = 'Tamamla';
 
   @override
-  String cancel = 'Cancel';
+  String cancel = 'İptal';
 
   @override
-  String edit = 'Edit';
+  String edit = 'Düzenle';
 
   @override
   String emptyPlaceHolder = 'Nothing here...';
@@ -136,22 +136,22 @@ class EnglishTextDelegate implements AssetsPickerTextDelegate {
   String gifIndicator = 'GIF';
 
   @override
-  String heicNotSupported = 'Unsupported HEIC asset type.';
+  String heicNotSupported = 'Desteklenmeyen HEIC varlık türü.';
 
   @override
-  String loadFailed = 'Load failed';
+  String loadFailed = 'Yükleme Hatası';
 
   @override
-  String original = 'Origin';
+  String original = 'Orjinal';
 
   @override
-  String preview = 'Preview';
+  String preview = 'Önizleme';
 
   @override
-  String select = 'Select';
+  String select = 'Seç';
 
   @override
-  String unSupportedAssetType = 'Unsupported HEIC asset type.';
+  String unSupportedAssetType = 'Desteklenmeyen HEIC varlık türü.';
 
   @override
   String durationIndicatorBuilder(Duration duration) {
